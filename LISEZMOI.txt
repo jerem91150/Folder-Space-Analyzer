@@ -1,0 +1,20 @@
+Ce projet est un outil qui analyse l'utilisation de l'espace disque d'un dossier sélectionné. L'utilisateur sélectionne un dossier via une interface graphique, et le script calcule et affiche les tailles des sous-dossiers. Les résultats sont imprimés dans une fenêtre de terminal.
+
+Prérequis
+
+Système d'exploitation Windows (l'exécutable est pour Windows)
+Pas besoin d'installer Python (https://www.python.org/downloads/) ni aucune dépendance si vous utilisez l'exécutable.
+Dépendances
+Si vous souhaitez exécuter le script via Python, installez la bibliothèque requise en exécutant cette commande dans un terminal :
+
+bash
+Copier le code
+pip install easygui
+Comment utiliser
+Téléchargez le dossier (analyse_dossier).
+Double-cliquez sur le fichier analyse_dossier.exe.
+Une boîte de dialogue de sélection de dossier apparaîtra.
+Choisissez le dossier que vous souhaitez analyser.
+Les résultats seront affichés dans une fenêtre de terminal, montrant les tailles des sous-dossiers en gigaoctets (Go).
+Après l'analyse, appuyez sur "Entrée" pour fermer le terminal.
+Et voilà !
